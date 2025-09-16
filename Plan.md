@@ -50,44 +50,44 @@ Focus: Repo, architecture, monorepo config.
 
   _Completion Checklist_
 
-  - [ ] **Create repo**
+  - [✅] **Create repo**
 
     ```bash
     git init art-store && cd art-store
     ```
 
-  - [ ] **Add README.md** (overview, stack, setup).
+  - [✅] **Add README.md** (overview, stack, setup).
 
     ```bash
     echo "# Online Art Store\n\nExpo + Next.js monorepo with Supabase." > README.md
     ```
 
-  - [ ] **Add .gitignore** (node_modules, .expo, .next, .env).
+  - [✅] **Add .gitignore** (node_modules, .expo, .next, .env).
 
     ```bash
     curl -s https://www.toptal.com/developers/gitignore/api/node,react,reactnative > .gitignore
     ```
 
-  - [ ] **Add changelogs.md** (Keep a Changelog format).
+  - [✅] **Add changelogs.md** (Keep a Changelog format).
 
     ```bash
     echo -e "# Changelogs\n\n## [Unreleased]\n### Added\n- Initial monorepo." > changelogs.md
     ```
 
-  - [ ] **Stage & commit**
+  - [✅] **Stage & commit**
 
     ```bash
     git add README.md .gitignore changelogs.md
     git commit -m "Initialize monorepo"
     ```
 
-  - [ ] **Set remote**
+  - [✅] **Set remote**
 
     ```bash
     git remote add origin git@github.com:silentmot/art-store.git
     ```
 
-  - [ ] **Push to main**
+  - [✅] **Push to master**
 
     ```bash
     git branch -M master
@@ -97,12 +97,12 @@ Focus: Repo, architecture, monorepo config.
   > Update the checklist upon completion, include the details of implementation in the `changelogs.md`
 
 - **Task 1.2** Monorepo Setup  
-  _Assigned: Claude Code_  
+  _Assigned: GitHub Copilot_  
   _Description: Configure Turbo for Expo + Next.js apps._
 
   _Completion Checklist_
 
-  - [ ] **Init pnpm/yarn** (use pnpm for workspaces).
+  - [ ] **Init pnpm** (use pnpm for workspaces).
 
     ```bash
     pnpm init -y

@@ -10,7 +10,13 @@
     "test": "turbo run test",
     "type-check": "turbo run type-check"
   },
-  "keywords": ["art", "gallery", "expo", "nextjs", "chatbot"],
+  "keywords": [
+    "art",
+    "gallery",
+    "expo",
+    "nextjs",
+    "chatbot"
+  ],
   "author": "DvoiD",
   "license": "MIT",
   "packageManager": "pnpm@10.16.1",
