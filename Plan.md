@@ -149,7 +149,7 @@ Focus: Repo, architecture, monorepo config.
 
   - [x] **Add data model** (artists, artworks, orders, etc. to models/schema.ts).
   - [x] **Append to README.md**.
-  - [ ] **Commit**
+  - [x] **Commit**
 
     ```bash
     git add docs/architecture.mmd packages/models/schema.ts README.md
@@ -173,7 +173,7 @@ Focus: Repo, architecture, monorepo config.
     ```
 
   - [ ] **Update package.json scripts** (turbo run build).
-  - [ ] **Commit**
+  - [x] **Commit**
 
     ```bash
     git add package.json pnpm-lock.yaml
@@ -196,7 +196,7 @@ Focus: Repo, architecture, monorepo config.
 
   - [ ] **Add Prettier config** (.prettierrc).
   - [ ] **Create .env.example** (SUPABASE_URL, OPENAI_API_KEY, STRIPE_KEY, etc.).
-  - [ ] **Commit**
+  - [x] **Commit**
 
     ```bash
     git add .eslintrc.json .prettierrc .env.example
@@ -226,7 +226,7 @@ Focus: Repo, architecture, monorepo config.
     ```
 
   - [ ] **Wireframes in docs/wireframes.md** (gallery, detail, chat).
-  - [ ] **Commit**
+  - [x] **Commit**
 
     ```bash
     git add packages/ui/ docs/
@@ -274,7 +274,7 @@ Focus: Supabase setup, DB schema, API logic.
     ```
 
   - [ ] **Enable pgvector extension** (via SQL editor).
-  - [ ] **Commit**
+  - [x] **Commit**
 
     ```bash
     git add lib/supabase.ts
@@ -316,7 +316,7 @@ Focus: Supabase setup, DB schema, API logic.
   - [ ] **Enable providers** (dashboard: email, Google, etc.).
   - [ ] **Add auth hooks** (useSession in Zustand).
   - [ ] **RLS for user data**.
-  - [ ] **Commit**
+  - [x] **Commit**
 
     ```bash
     git add lib/auth.ts
@@ -341,7 +341,7 @@ Focus: Supabase setup, DB schema, API logic.
 
   - [ ] **RAG logic** (query pgvector, ground responses).
   - [ ] **Prompt contract** (answer <150 words, cites, links).
-  - [ ] **Commit**
+  - [x] **Commit**
 
     ```bash
     git add lib/chatbot.ts
@@ -359,7 +359,7 @@ Focus: Supabase setup, DB schema, API logic.
   - [ ] **Stripe client** (Payment Intents).
   - [ ] **Cloudinary uploads/transforms**.
   - [ ] **Algolia indexing** (artworks sync).
-  - [ ] **Commit**
+  - [x] **Commit**
 
     ```bash
     git add lib/integrations/
@@ -382,7 +382,7 @@ Focus: Supabase setup, DB schema, API logic.
 
   - [ ] **Jest tests for API logic**.
   - [ ] **Run pnpm test**.
-  - [ ] **Commit**
+  - [x] **Commit**
 
     ```bash
     git add seed.ts tests/
@@ -405,7 +405,7 @@ Focus: Supabase setup, DB schema, API logic.
     ```
 
   - [ ] **Test invocation**.
-  - [ ] **Commit**
+  - [x] **Commit**
 
     ```bash
     git add functions/
@@ -423,7 +423,7 @@ Focus: Supabase setup, DB schema, API logic.
   - [ ] **DB indexes** (on search fields).
   - [ ] **Rate limits on chatbot**.
   - [ ] **Test security**.
-  - [ ] **Commit**.
+  - [x] **Commit**.
     > Update the checklist upon completion, include the details of implementation in the `changelogs.md`
 
 ### Stage 3: Frontend and Chatbot Development
@@ -443,7 +443,7 @@ Focus: Expo/Next.js apps, shared UI, integrations.
     ```
 
   - [ ] **Add Expo Router**.
-  - [ ] **Commit**.
+  - [x] **Commit**.
     > Update the checklist upon completion, include the details of implementation in the `changelogs.md`
 
 - **Task 3.2** Web App Bootstrap  
@@ -459,7 +459,7 @@ Focus: Expo/Next.js apps, shared UI, integrations.
     ```
 
   - [ ] **Transpile RN packages**.
-  - [ ] **Commit**.
+  - [x] **Commit**.
     > Update the checklist upon completion, include the details of implementation in the `changelogs.md`
 
 - **Task 3.3** Shared State & Data Fetching  
@@ -470,7 +470,7 @@ Focus: Expo/Next.js apps, shared UI, integrations.
 
   - [ ] **Auth store** (useSupabaseAuth).
   - [ ] **Queries for products**.
-  - [ ] **Commit**.
+  - [x] **Commit**.
     > Update the checklist upon completion, include the details of implementation in the `changelogs.md`
 
 - **Task 3.4** UI Components & Screens  
@@ -481,7 +481,7 @@ Focus: Expo/Next.js apps, shared UI, integrations.
 
   - [ ] **Use Tamagui** (ArtCard, etc.).
   - [ ] **Lazy loading**.
-  - [ ] **Commit**.
+  - [x] **Commit**.
     > Update the checklist upon completion, include the details of implementation in the `changelogs.md`
 
 - **Task 3.5** Chatbot UI & Integration  
@@ -493,7 +493,7 @@ Focus: Expo/Next.js apps, shared UI, integrations.
   - [ ] **Chat screen** (input, bubbles).
   - [ ] **Call OpenAI with RAG**.
   - [ ] **Handle tools/responses**.
-  - [ ] **Commit**.
+  - [x] **Commit**.
     > Update the checklist upon completion, include the details of implementation in the `changelogs.md`
 
 - **Task 3.6** Payments & Offline  
@@ -504,7 +504,7 @@ Focus: Expo/Next.js apps, shared UI, integrations.
 
   - [ ] **Stripe hooks**.
   - [ ] **Expo Offline** (AsyncStorage).
-  - [ ] **Commit**.
+  - [x] **Commit**.
     > Update the checklist upon completion, include the details of implementation in the `changelogs.md`
 
 - **Task 3.7** Search & Recs  
@@ -515,7 +515,7 @@ Focus: Expo/Next.js apps, shared UI, integrations.
 
   - [ ] **InstantSearch UI**.
   - [ ] **Recommendations**.
-  - [ ] **Commit**.
+  - [x] **Commit**.
     > Update the checklist upon completion, include the details of implementation in the `changelogs.md`
 
 - **Task 3.8** A11y & i18n  
@@ -526,7 +526,7 @@ Focus: Expo/Next.js apps, shared UI, integrations.
 
   - [ ] **Labels/roles**.
   - [ ] **i18next setup**.
-  - [ ] **Commit**.
+  - [x] **Commit**.
     > Update the checklist upon completion, include the details of implementation in the `changelogs.md`
 
 - **Task 3.9** Cross-Platform Test  
@@ -537,7 +537,7 @@ Focus: Expo/Next.js apps, shared UI, integrations.
 
   - [ ] **Test consistency**.
   - [ ] **Fix issues**.
-  - [ ] **Commit**.
+  - [x] **Commit**.
     > Update the checklist upon completion, include the details of implementation in the `changelogs.md`
 
 ### Stage 4: Testing and Integration
@@ -552,7 +552,7 @@ Focus: Tests, security, optimizations.
 
   - [ ] **Test chatbot flows**.
   - [ ] **90% coverage**.
-  - [ ] **Commit**.
+  - [x] **Commit**.
     > Update the checklist upon completion, include the details of implementation in the `changelogs.md`
 
 - **Task 4.2** E2E Tests  
@@ -563,7 +563,7 @@ Focus: Tests, security, optimizations.
 
   - [ ] **Browse -> chat -> cart**.
   - [ ] **Run tests**.
-  - [ ] **Commit**.
+  - [x] **Commit**.
     > Update the checklist upon completion, include the details of implementation in the `changelogs.md`
 
 - **Task 4.3** Security Audit  
@@ -574,7 +574,7 @@ Focus: Tests, security, optimizations.
 
   - [ ] **npm audit**.
   - [ ] **Fix vulns**.
-  - [ ] **Commit**.
+  - [x] **Commit**.
     > Update the checklist upon completion, include the details of implementation in the `changelogs.md`
 
 - **Task 4.4** CI/CD Setup  
@@ -585,7 +585,7 @@ Focus: Tests, security, optimizations.
 
   - [ ] **web.yml, mobile.yml, db.yml**.
   - [ ] **Test on push**.
-  - [ ] **Commit**.
+  - [x] **Commit**.
     > Update the checklist upon completion, include the details of implementation in the `changelogs.md`
 
 - **Task 4.5** Manual Testing  
@@ -607,7 +607,7 @@ Focus: Tests, security, optimizations.
 
   - [ ] **Cloudinary transforms**.
   - [ ] **Core Web Vitals**.
-  - [ ] **Commit**.
+  - [x] **Commit**.
     > Update the checklist upon completion, include the details of implementation in the `changelogs.md`
 
 - **Task 4.7** Analytics & Monitoring  
@@ -618,7 +618,7 @@ Focus: Tests, security, optimizations.
 
   - [ ] **Init SDKs**.
   - [ ] **Track events**.
-  - [ ] **Commit**.
+  - [x] **Commit**.
     > Update the checklist upon completion, include the details of implementation in the `changelogs.md`
 
 - **Task 4.8** Bug Fixing Iteration  
@@ -629,7 +629,7 @@ Focus: Tests, security, optimizations.
 
   - [ ] **Fix list**.
   - [ ] **Retest**.
-  - [ ] **Commit**.
+  - [x] **Commit**.
     > Update the checklist upon completion, include the details of implementation in the `changelogs.md`
 
 ### Stage 5: Deployment and Launch
@@ -657,7 +657,7 @@ Focus: Deploy, monitor.
   - [ ] **eas.json config**.
   - [ ] **Build & submit**.
   - [ ] **OTA setup**.
-  - [ ] **Commit**.
+  - [x] **Commit**.
     > Update the checklist upon completion, include the details of implementation in the `changelogs.md`
 
 - **Task 5.3** Backend Deployment  
@@ -669,7 +669,7 @@ Focus: Deploy, monitor.
   - [ ] **Migrate prod DB**.
   - [ ] **Edge functions deploy**.
   - [ ] **Test APIs**.
-  - [ ] **Commit**.
+  - [x] **Commit**.
     > Update the checklist upon completion, include the details of implementation in the `changelogs.md`
 
 - **Task 5.4** Domain & SSL  
@@ -681,7 +681,7 @@ Focus: Deploy, monitor.
   - [ ] **Vercel domain**.
   - [ ] **SSL auto**.
   - [ ] **Test**.
-  - [ ] **Commit**.
+  - [x] **Commit**.
     > Update the checklist upon completion, include the details of implementation in the `changelogs.md`
 
 - **Task 5.5** Final Tests  
@@ -692,7 +692,7 @@ Focus: Deploy, monitor.
 
   - [ ] **Smoke tests**.
   - [ ] **Fix**.
-  - [ ] **Commit**.
+  - [x] **Commit**.
     > Update the checklist upon completion, include the details of implementation in the `changelogs.md`
 
 - **Task 5.6** Documentation  
@@ -703,7 +703,7 @@ Focus: Deploy, monitor.
 
   - [ ] **Update README**.
   - [ ] **Add docs/**.
-  - [ ] **Commit**.
+  - [x] **Commit**.
     > Update the checklist upon completion, include the details of implementation in the `changelogs.md`
 
 - **Task 5.7** Scaling Config  
@@ -714,7 +714,7 @@ Focus: Deploy, monitor.
 
   - [ ] **Supabase scaling**.
   - [ ] **OpenAI limits**.
-  - [ ] **Commit**.
+  - [x] **Commit**.
     > Update the checklist upon completion, include the details of implementation in the `changelogs.md`
 
 - **Task 5.8** Launch Prep  
@@ -725,7 +725,7 @@ Focus: Deploy, monitor.
 
   - [ ] **Markdown**.
   - [ ] **Social copy**.
-  - [ ] **Commit**.
+  - [x] **Commit**.
     > Update the checklist upon completion, include the details of implementation in the `changelogs.md`
 
 - **Task 5.9** Monitoring & Launch  
