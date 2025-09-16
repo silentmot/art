@@ -1,0 +1,20 @@
+{
+  "name": "art-store",
+  "version": "1.0.0",
+  "description": "Cross-platform online art store with integrated chatbot",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "type-check": "turbo run type-check"
+  },
+  "keywords": ["art", "gallery", "expo", "nextjs", "chatbot"],
+  "author": "DvoiD",
+  "license": "MIT",
+  "packageManager": "pnpm@10.16.1",
+  "devDependencies": {
+    "turbo": "latest"
+  }
+}
