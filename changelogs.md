@@ -24,3 +24,10 @@
   - Committed all monorepo configuration files with descriptive commit message.
 
 > **Task done by GitHub Copilot on 2025-09-16**
+
+- **Task 1.3** System Architecture Design
+  - Added docs/architecture.mmd Mermaid diagram covering clients, Supabase, and service integrations.
+  - Introduced Zod schemas in packages/models/schema.ts for artists, artworks, inventory, orders, payments, customers, carts, and wishlists.
+  - Expanded README.md with architecture summary and schema references.
+
+> **Task done by GPT Codex on 2025-09-16**

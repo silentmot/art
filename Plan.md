@@ -102,20 +102,20 @@ Focus: Repo, architecture, monorepo config.
 
   _Completion Checklist_
 
-  - [ ] **Init pnpm** (use pnpm for workspaces).
+  - [✅] **Init pnpm** (use pnpm for workspaces).
 
     ```bash
     pnpm init -y
     ```
 
-  - [ ] **Create turbo.json** (pipelines for build/test).
+  - [✅] **Create turbo.json** (pipelines for build/test).
 
     ```json
     { "pipeline": { "build": { "dependsOn": ["^build"] } } }
     ```
 
-  - [ ] **Add apps/packages dirs** (apps/mobile, apps/web, packages/ui, packages/models).
-  - [ ] **Commit**
+  - [✅] **Add apps/packages dirs** (apps/mobile, apps/web, packages/ui, packages/models).
+  - [✅] **Commit**
 
     ```bash
     git add turbo.json pnpm-workspace.yaml
@@ -130,7 +130,7 @@ Focus: Repo, architecture, monorepo config.
 
   _Completion Checklist_
 
-  - [ ] **Generate Mermaid diagram** (from reference).
+  - [x] **Generate Mermaid diagram** (from reference).
 
     ```mermaid
     flowchart TD
@@ -147,8 +147,8 @@ Focus: Repo, architecture, monorepo config.
     API <--> OPENAI[[OpenAI]]
     ```
 
-  - [ ] **Add data model** (artists, artworks, orders, etc. to models/schema.ts).
-  - [ ] **Append to README.md**.
+  - [x] **Add data model** (artists, artworks, orders, etc. to models/schema.ts).
+  - [x] **Append to README.md**.
   - [ ] **Commit**
 
     ```bash

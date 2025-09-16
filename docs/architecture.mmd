@@ -1,0 +1,14 @@
+```mermaid
+flowchart TD
+subgraph Client
+Web[Next.js] --> Edge
+iOS[Expo iOS] --> Edge
+Android[Expo Android] --> Edge
+end
+Edge[Vercel/CDN] --> API[Supabase Edge]
+API --> DB[(Postgres/pgvector)]
+API --> STRIPE[[Stripe]]
+API --> CLOUDI[[Cloudinary]]
+API --> ALGOLIA[[Algolia]]
+API <--> OPENAI[[OpenAI]]
+```
